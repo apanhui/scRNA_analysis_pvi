@@ -4,6 +4,7 @@ The package layout is:
 
 ```
 ├── README.md                 <- you are reading it
+├── LICENSE                   <- MIT license
 ├── code/                     <- production scripts
 │   ├── 1.Seurat.R            <- QC, doublet removal, harmony integration, clustering
 │   ├── 2.DEGene.R            <- per-cluster DE markers (FindAllMarkers)
@@ -209,3 +210,9 @@ Per-cell scores are attached to the object, each cell is assigned to the
 highest-scoring state (`CellState`), and `Cells.CellSelect.list.xls`
 reports all scores plus Positive/Negative calls at the 75th-percentile
 cutoff of each gene set.
+
+------------------------------------------------------------------------
+
+## 5. License
+
+This project is released under the [MIT License](LICENSE).
