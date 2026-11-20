@@ -1,0 +1,22 @@
+---
+group:
+  by_sample:
+    As:
+    - As
+    CK:
+    - CK
+  by_gene: ~
+differ:
+- - CK
+  - As
+diff_type: no_bulk
+FindMarkers:
+  log2fc: 0.36
+  min_pct: 0.1
+  pvalue: 0.05
+  use.q: false
+  pseudocount.use: 0.0001
+  method: MAST
+plots:
+  top: 5
+  reduce: tsne
